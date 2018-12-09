@@ -14,15 +14,17 @@ Analyse user's actions on an interactive system like a web page to learn their i
 
 
 
-Task 1: We have given the a sequence of click events performed by some user during a typical session in the test file. The goal is to predict whether the user is going to buy something or not for the session.
+# Task 1:
+We have given the a sequence of click events performed by some user during a typical session in the test file. The goal is to predict whether the user is going to buy something or not for the session.
 
-Task 2: Answer the following questions based on the analysis 
+# Task 2:
+Answer the following questions based on the analysis 
 1.	What are the key differentiating sequences/subsequence's/clicks between People ordered and Not ordered?
 2.	What links or sequence of link lead to drop out after Adding to Cart and Checkout & where they drop out? (Checkout = 1 and order placed= 0)
 3.	What links or sequence of link factors lead to customers not checking out at all (which is (Checkout = 0 and order placed= 0)
 4.	How users in upper and Middle pushed into Lower, where will the intervention strategy for Middle and lower bucket happen for finishing order.
 
-#Data Dictionary
+# Data Dictionary
 
 ID		        : Session Id 
 
