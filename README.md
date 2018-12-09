@@ -23,13 +23,21 @@ Task 2: Answer the following questions based on the analysis
 Data Dictionary
 
 ID		        : Session Id 
+
 ad		        : ad clicked and then the Ad id if its blank no ads clicked
+
 Link		        : what are the interaction clicks done in the Web
+
 timestamp	: what time the click was done by a customer in the session .
+
 checkout  	: if they added product and di checkout  0  No  1- Yes
+
 order_placed	: Order placed after checkout  0 no  Yes - 1
+
 grp		        : What group was the link  event part of  - (Grouping of all similar links that has same function)
+
 funnel_level  	: what is the stage of the action click .
+
 
 •	The file comprising the clicks of the users over a session and that session resulting on an order or a user jut did a checkout or a user exited before a checkout.
 •	Each record/line in the file is an action or a click done by a user in that session, each session is a unique user. They will have multiple records in a session based on the actions and clicks they are doing to complete an order or add to a checkout or browsing and exiting without checkout or order.
